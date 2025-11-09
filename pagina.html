@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafetería lautaro</title>
+  <link rel="stylesheet" href="css/pagina.css" />
+</head>
+<body>
+  <header>
+    <h1>COFFEE HOUSES</h1>
+    <button id="btnCarrito">🛒 Carrito (<span id="contador">0</span>)</button>
+  </header>
+
+  <main>
+    <section class="productos">
+      <div class="producto">
+        <img src="imgcafe/cafeespresso.jfif" alt="Café Espresso">
+        <h3>Café Espresso</h3>
+        <p>$1200</p>
+        <button class="agregar">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="imgcafe/capuccino.jfif" alt="Capuccino">
+        <h3>Capuccino</h3>
+        <p>$1500</p>
+        <button class="agregar">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="imgcafe/late.jfif" alt="Latte">
+        <h3>Latte</h3>
+        <p>$1400</p>
+        <button class="agregar">Agregar al carrito</button>
+      </div>
+
+      <div class="producto">
+        <img src="imgcafe/mocaccino.jfif" alt="Mocaccino">
+        <h3>Mocaccino</h3>
+        <p>$1600</p>
+        <button class="agregar">Agregar al carrito</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="carrito" class="carrito">
+    <h2>Tu carrito</h2>
+    <ul id="listaCarrito"></ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button id="vaciar">Vaciar carrito</button>
+    <button id="cerrar">Cerrar</button>
+  </div>
+
+  <footer>
+    <p>© 2025 Cafetería Aroma | Todos los derechos reservados</p>
+  </footer>
+
+  <script src="js/pagina.js"></script>
+</body>
+</html>
